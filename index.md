@@ -22,14 +22,7 @@
 <model-viewer camera-controls camera-orbit="0deg 45deg 10m" id="reveal" loading="eager" src="Models/Bahay_1 bed Apartment_02_experiment.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment_02_experiment___1612219828086.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 95%; height: 500px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
       👋 AR Click Here
   </button>
-</model-viewer>
-
-<!-- Loads <model-viewer> for modern browsers: -->
- <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
-  </script>
-<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
-<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-   {% if site.google_analytics %}
+  {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -39,6 +32,14 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+</model-viewer>
+
+<!-- Loads <model-viewer> for modern browsers: -->
+ <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  
 
 ---
 
