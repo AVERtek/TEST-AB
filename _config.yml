@@ -1,0 +1,17 @@
+#title: AVERtek # your name photo (or website title) here
+logo1: "images/BAHAY-LOGO-leaf-green-gold.png? raw=true" # your photo (or logo) here
+description: > # your text below (remove <br> elements if you don't need line breaks)
+ 
+  <br><br> 
+  <b>DISCOVER WHY ALEXAN BAHAY MEANS HOME</b>
+  <br><br>
+  <b>ENVISION: 3D APARTMENT TOUR</b>- Use pointer to rotate & spin; zoom to scale model below
+  <br><br> 
+  <b>EXPERIENCE: 4D AUGMENTED REALITY TOUR (mobile devices only)</b>- press AR button, place image on open flat, well-lit surface, scale & tour
+  <br><br>
+  <b>VIEW:</b><a href="https://alexanbahay.com/gallery/video/?utm_source=AVERtek&utm_medium=AR"</b> Click here to see all that awaits you at Alexan Bahay</a> 
+  <br><br>
+  <b>EXPLORE:</b><a href="https://alexanbahay.com/contact/?utm_source=AVERtek&utm_medium=AR"</b> Click here for a self-guided or in-person private Alexan Bahay tour & receive a special gift</a> 
+  <br><br>
+theme: jekyll-theme-minimal
+google_analytics: UA-188164724-2 # your Google Analytics tracking ID here
