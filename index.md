@@ -56,6 +56,13 @@ var getOutboundLink = function(url) {
 const linkElement = document.getElementById("ar-link");
 linkElement.addEventListener("message", function (event) { ... }, false);
 
+const linkElement = document.getElementById("ar-link");
+linkElement.addEventListener("message", function (event) {   
+    if (event.data == "_apple_ar_quicklook_button_tapped") {
+        // handle the user tap.   
+    }
+}, false);
+
 <!-- Loads <model-viewer> for modern browsers: -->
  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
   </script>
