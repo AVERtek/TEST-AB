@@ -23,7 +23,7 @@
       👋 AR Click Here
   
   </button>
-  "onclick="getOutboundLink; return false;"
+  
 </model-viewer>
 <script>
 /**
