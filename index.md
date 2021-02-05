@@ -53,6 +53,9 @@ var getOutboundLink = function(url) {
 }
 </script>
 
+const linkElement = document.getElementById("ar-link");
+linkElement.addEventListener("message", function (event) { ... }, false);
+
 <!-- Loads <model-viewer> for modern browsers: -->
  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
   </script>
