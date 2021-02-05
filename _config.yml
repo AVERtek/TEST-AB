@@ -13,7 +13,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <b>EXPLORE:</b><a href="https://alexanbahay.com/contact/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanbahay.com/contact/?utm_source=AVERtek&utm_medium=AR'); return false;"</b> Click here for a self-guided or in-person private Alexan Bahay tour & receive a special gift</a> 
   <br><br>
-  <a id="ar-link" rel="ar" href="https://example.com/cool-model.usdz#applePayButtonType=pay....etc">  <img src="poster.jpg"></a>
+  <a id="ar-link" rel="ar" src="usdz_bahay_1_bed_apartment_02_experiment___1612219828086.usdz" alt="Alexan Bahay"></a>
 theme: jekyll-theme-minimal
 # Google Analytics
 google_analytics: UA-188164724-1 
