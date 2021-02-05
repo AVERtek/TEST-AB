@@ -13,6 +13,8 @@
     {% if site.google_analytics and jekyll.environment == 'production' %}
     {% include analytics.html %}
     {% endif %}
+    const linkElement = document.getElementById("ar-link");
+    linkElement.addEventListener("message", function (event) { ... }, false);
   </head>
   <body>
     <div class="wrapper">
