@@ -51,5 +51,5 @@ var getOutboundLink = function(url) {
 
 ---
 
-### <a href="https://avertek.net/xr-now">Learn More About AVERtek's XR-NOW</a> 
+### <a href="https://avertek.net/xr-now" onclick="getOutboundLink('https://avertek.net/xr-now'); return false;">Learn More About AVERtek's XR-NOW</a> 
   <br><br>
