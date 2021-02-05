@@ -25,6 +25,9 @@
   </button>
   
 </model-viewer>
+
+<!-- create event listner for AR button for Android -->
+
 <script>
   document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
     if(event.detail.status === 'failed'){
@@ -36,6 +39,8 @@
     }
   });
 </script>
+
+<!-- add script for Google Analytics -->
 <script>
 /**
 * Function that registers a click on an outbound link in Analytics.
@@ -53,6 +58,11 @@ var getOutboundLink = function(url) {
 }
 </script>
 
+<!-- add event listner for AR button for iOS -->
+<script>
+const linkElement = document.getElementById("ar-link");
+linkElement.addEventListener("message", function (event) { ... }, false);
+</script>
 
 <!-- Loads <model-viewer> for modern browsers: -->
  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
