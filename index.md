@@ -1,5 +1,5 @@
-### Tour 3D Apartment Model Below <!-- Loads <model-viewer> for old browsers like IE11: -->
-### Tour 4D AR Apartment Model on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
+### Immersive 3D Tour, View Model Below <!-- Loads <model-viewer> for old browsers like IE11: -->
+### 4D "AR" Walking Tour, Experience on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
@@ -21,26 +21,8 @@
 
 <model-viewer camera-controls camera-orbit="0deg 45deg 10m" id="reveal" loading="eager" src="Models/Bahay_1 bed Apartment_02_experiment.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment_02_experiment___1612219828086.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 95%; height: 500px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
       👋 AR Click Here
-  
   </button>
-  
 </model-viewer>
-
-<!-- create event listner for AR button for Android -->
-
-<script>
-  document.querySelector("#model-viewer").addEventListener('ar-status', (event) => {
-    if(event.detail.status === 'failed'){
-      const error = document.querySelector("#error");
-      error.classList.remove('hide');
-      error.addEventListener('transitionend',(event) => {
-        error.classList.add('hide');
-      });
-    }
-  });
-</script>
-
-<!-- add script for Google Analytics -->
 <script>
 /**
 * Function that registers a click on an outbound link in Analytics.
@@ -58,18 +40,16 @@ var getOutboundLink = function(url) {
 }
 </script>
 
-<!-- add event listner for AR button for iOS -->
-<script>
-const linkElement = document.getElementById("ar-link");
-linkElement.addEventListener("message", function (event) { ... }, false);
-</script>
-
 <!-- Loads <model-viewer> for modern browsers: -->
  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
   </script>
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  
+
+<!-- Loads <model-viewer> for modern browsers: -->
+ <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js">
+  </script>
+<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 
 ---
 
