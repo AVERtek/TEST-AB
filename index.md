@@ -1,5 +1,5 @@
-### Immersive 3D Tour, View Model Below <!-- Loads <model-viewer> for old browsers like IE11: -->
-### 4D "AR" Walking Tour, Experience on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
+### Immersive 3D Tour Below <!-- Loads <model-viewer> for old browsers like IE11: -->
+### 4D "AR" Walking Tour on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
