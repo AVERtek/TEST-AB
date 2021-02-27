@@ -9,9 +9,9 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br> 
   <b>EXPERIENCE: 4D AUGMENTED REALITY</b>  AR Walking Tour on Mobile Device
   <br><br>
-  <b>VIEW:</b><a href="https://avertek.net/xr-now-apartments" onclick="getOutboundLink('https://alexanbahay.com/gallery/video/?utm_source=AVERtek&utm_medium=AR'); return false;"</b><b> Luxury Living</b></a> 
+  <b>VIEW:</b><a href="https://avertek.net/xr-now-apartments" onclick="getOutboundLink('https://avertek.net/xr-now-apartments'); return false;"</b><b> Luxury Living</b></a> 
   <br><br>
-  <b>EXPLORE:</b><a href="https://avertek.net/special-bonus" onclick="getOutboundLink('https://alexanbahay.com/contact/?utm_source=AVERtek&utm_medium=AR'); return false;"</b> <b> VIP Tour & Free Gift</a> 
+  <b>EXPLORE:</b><a href="https://avertek.net/special-bonus" onclick="getOutboundLink('https://avertek.net/special-bonus'); return false;"</b> <b> VIP Tour & Free Gift</a> 
   <br><br>
 theme: jekyll-theme-minimal
 # Google Analytics
