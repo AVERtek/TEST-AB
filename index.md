@@ -19,24 +19,11 @@
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
  <style>
- button{
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    border: none;
-    background-color: blue;
-    box-sizing: border-box;
-  }
+
 
   button[slot="hotspot-hand"]{
     --min-hotspot-opacity: 0;
     background-color: red;
-  }
-
-  button[slot="hotspot-foot"]:not([data-visible]) {
-    background-color: transparent;
-    border: 3px solid blue;
   }
 
   #annotation{
