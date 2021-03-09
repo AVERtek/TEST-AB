@@ -26,7 +26,7 @@
 
 <style>
   button{
-    display:;
+    display:circle;
     width: 10px;
     height: 10px;
     border-radius: 5px;
@@ -35,7 +35,7 @@
     box-sizing: border-box;
   }
   #annotation{
-    background-color: #ffffff;
+    background-color: #c1c2c3;
     position: absolute;
     transform: translate(10px, 10px);
     border-radius: 10px;
