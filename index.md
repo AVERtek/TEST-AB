@@ -26,7 +26,8 @@
 
 <style>
   button{
-    width: 10px;
+    display:block;
+    width: 20px;
     height: 10px;
     border-radius: 5px;
     border: none;
