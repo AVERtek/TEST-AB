@@ -26,13 +26,13 @@
 
 <style>
   button{
-    display:circle;
+    display:block;
     width: 10px;
     height: 10px;
     border-radius: 5px;
     border: none;
     background-color: green;
-    box-sizing: border-box;
+    box-sizing:;
   }
   #annotation{
     background-color: #c1c2c3;
