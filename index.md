@@ -18,10 +18,16 @@
 
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
-  <style>
-    button[slot="hotspot-hand"]{
-    --min-hotspot-opacity: 0;
-    background-color: red;
+ 
+<model-viewer camera-controls camera-orbit="0deg 45deg 10m" id="annotation" loading="eager" src="Models/Bahay_1 bed Apartment_02_experiment.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment_02_experiment___1612219828086.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 95%; height: 500px" exposure="0.5"> <button slot="hotspot-hand" data-position="-0.6577432407752888m 0.5435449945961643m" data-normal="0.0958066931824225m -0.169619142622571m 0.9808416916085048m"><div id="annotation">This hotspot disappears completely</div></button> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
+      👋 AR Click Here
+  </button>
+</model-viewer>
+ 
+<style>
+  button[slot="hotspot-hand"]{
+  --min-hotspot-opacity: 0;
+  background-color: red;
   }
 
   #annotation{
@@ -35,13 +41,8 @@
   :not(:defined) > * {
     display: none;
   }
-  </style>
-  
+</style>
 
-<model-viewer camera-controls camera-orbit="0deg 45deg 10m" id="annotation" loading="eager" src="Models/Bahay_1 bed Apartment_02_experiment.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment_02_experiment___1612219828086.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 95%; height: 500px" exposure="0.5"> <button slot="hotspot-hand" data-position="-0.6577432407752888m 0.5435449945961643m" data-normal="0.0958066931824225m -0.169619142622571m 0.9808416916085048m"><div id="annotation">This hotspot disappears completely</div></button> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
-      👋 AR Click Here
-  </button>
-</model-viewer>
 <script>
 /**
 * Function that registers a click on an outbound link in Analytics.
