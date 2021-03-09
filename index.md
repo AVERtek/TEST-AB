@@ -23,7 +23,18 @@
       👋 AR Click Here
   </button>
 </model-viewer>
- 
+
+<style>
+  button{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: blue;
+    box-sizing: border-box;
+  }
+  </style>
 <script>
 /**
 * Function that registers a click on an outbound link in Analytics.
