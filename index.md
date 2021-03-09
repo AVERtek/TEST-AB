@@ -25,24 +25,6 @@
   
 </model-viewer>
 
-<style>
-  button{
-    display:block;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: green;
-    box-sizing:border-box;
-  }
-  #annotation{
-    background-color: #c1c2c3;
-    position: absolute;
-    transform: translate(10px, 10px);
-    border-radius: 10px;
-    padding: 10px;
-  }
-</style>
 
 <script>
 /**
