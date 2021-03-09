@@ -24,25 +24,6 @@
   </button>
 </model-viewer>
  
-<style>
-  button[slot="hotspot-hand"]{
-  --min-hotspot-opacity: 0;
-  background-color: red;
-  }
-
-  #annotation{
-    background-color: #888888;
-    position: absolute;
-    transform: translate(10px, 10px);
-    border-radius: 10px;
-    padding: 10px;
-  }
-  /* This keeps child nodes hidden while the element loads */
-  :not(:defined) > * {
-    display: none;
-  }
-</style>
-
 <script>
 /**
 * Function that registers a click on an outbound link in Analytics.
