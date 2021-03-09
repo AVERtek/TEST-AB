@@ -34,7 +34,10 @@
     background-color: green;
     box-sizing: border-box;
   }
-  
+  button[slot="hotspot-hand"]{
+    --min-hotspot-opacity: 0;
+    background-color: red;
+  } 
   #annotation{
     background-color: #ffffff;
     position: absolute;
