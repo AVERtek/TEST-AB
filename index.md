@@ -32,7 +32,7 @@
     border-radius: 5px;
     border: none;
     background-color: green;
-    box-sizing:;
+    box-sizing:border-box;
   }
   #annotation{
     background-color: #c1c2c3;
