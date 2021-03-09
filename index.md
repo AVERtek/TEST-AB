@@ -25,18 +25,6 @@
   
 </model-viewer>
 
-<style>
-  button{
-    display:block;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    border: none;
-    background-color: green;
-    box-sizing:border-box;
-  }
-
-</style>
 
 <script>
 /**
