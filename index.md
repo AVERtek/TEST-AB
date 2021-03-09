@@ -31,10 +31,19 @@
     height: 10px;
     border-radius: 5px;
     border: none;
-    background-color: blue;
+    background-color: green;
     box-sizing: border-box;
   }
-  </style>
+  
+  #annotation{
+    background-color: #888888;
+    position: absolute;
+    transform: translate(10px, 10px);
+    border-radius: 10px;
+    padding: 10px;
+  }
+</style>
+
 <script>
 /**
 * Function that registers a click on an outbound link in Analytics.
