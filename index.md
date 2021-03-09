@@ -36,7 +36,6 @@
   }
   #annotation{
     background-color: #c1c2c3;
-    position: absolute;
     transform: translate(10px, 10px);
     border-radius: 10px;
     padding: 10px;
