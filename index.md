@@ -27,9 +27,9 @@
 <style>
   button{
     display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
     border: none;
     background-color: blue;
     box-sizing: border-box;
